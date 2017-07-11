@@ -1,0 +1,13 @@
+I've tried a couple of npm modules that pack or compress json. But due to fact that even after reducing we still have not very big amount of json data it's not so usefull.
+So I've decided to do better implementation of reducing requests amount logic and to do better tests coverage as you mentioned in requirements.
+
+Also I thought about changing Http to native socket connection or mqqt, but then I decided not to do so, because I didn't have much time.
+
+But in a result I've reduced the bandwith 3 times from 28200 bytes to ~9000 bytes, so I think it's pretty nice optimization.
+
+To run my tests you should install jasmine globally(npm install jsamine -g). In `tests` folder execute `npm i` and to run tests execute `jasmine` command.
+There are not so much tests because it's not too much logic I've implemented and I didn't have too much time according to requirements.
+
+Hope you will enjoy my solution. Have a nice day!
+
+Nikita.
